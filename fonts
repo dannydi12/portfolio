@@ -1,0 +1,13 @@
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Poppins&display=swap" rel="stylesheet">
+
+or
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Poppins&display=swap');
+</style>
+
+
+use:
+
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Poppins', sans-serif;
