@@ -1,13 +1,20 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './Home/Home'
+import Nav from './Nav/Nav';
+import Intro from './Intro/Intro';
 
 function App() {
+  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' })
   return (
-    <BrowserRouter>
-      <Route exact path='/' component={Home} />
-    </BrowserRouter>
+    <main>
+      <header className='half'>
+        <Intro />
+      </header>
+      {!isMobile && <section className='different half'> 
+        <Nav /> 
+      </section>}
+    </main>
   );
 }
 

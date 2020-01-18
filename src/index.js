@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './Home/Home';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Route exact path='/' component={Home} />
+    <Route exact path='/' component={App} />
   </BrowserRouter>,
   document.getElementById('root'));
 
