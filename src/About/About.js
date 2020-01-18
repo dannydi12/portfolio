@@ -6,7 +6,7 @@ import widthContext from '../widthContext';
 function About() {
   const width = useContext(widthContext);
   return (
-    <section className='about-section'>
+    <section className='about-section section'>
       <header>
         <ScaleText maxFontSize={100} widthOnly={true}>
           <h2 className='title underline'>About</h2>
