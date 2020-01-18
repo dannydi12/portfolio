@@ -1,6 +1,5 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import MediaQuery from 'react-responsive';
 import './App.css';
 import Nav from './Nav/Nav';
 import Intro from './Intro/Intro';
@@ -17,6 +16,7 @@ function App() {
           <Nav />
         </div>}
       </header>
+      
     </main>
   );
 }
