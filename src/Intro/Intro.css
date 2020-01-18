@@ -1,7 +1,4 @@
 .intro {
   margin: 0;
-}
-
-.scaletext-wrapper {
-  overflow: hidden !important;
+  /* text-shadow: 1px 1px #f5b0cb, 2px 2px #f5b0cb, 3px 3px #f5b0cb; */
 }
