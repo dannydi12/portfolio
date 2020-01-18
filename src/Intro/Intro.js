@@ -5,9 +5,9 @@ import './Intro.css';
 function Intro() {
   return (
     <>
-      {/* <ScaleText widthOnly={true}> */}
+      <ScaleText widthOnly={true}>
         <h1 className='intro'>Hi<br />it's me<br />Daniel.</h1>
-      {/* </ScaleText> */}
+      </ScaleText>
       <p>But I'm also a full stack developer.</p>
     </>
   );

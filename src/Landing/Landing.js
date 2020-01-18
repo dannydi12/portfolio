@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Intro from '../Intro/Intro';
 import Nav from '../Nav/Nav';
 import { useMediaQuery } from 'react-responsive';
