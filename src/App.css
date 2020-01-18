@@ -7,6 +7,14 @@ main {
   flex-direction: column;
 }
 
+header {
+  background-color: #39375b;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .different {
   background-color: #f5b0cb;
 }
@@ -23,7 +31,7 @@ main {
 }
 
 @media only screen and (min-width: 1000px) {
-  main {
+  header {
     flex-direction: row;
   }
 }
