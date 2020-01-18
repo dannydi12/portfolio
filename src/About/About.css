@@ -15,6 +15,15 @@
   width: fit-content;
 }
 
+.column > svg {
+  background-color: #fff;
+  width: fit-content;
+  /* border-radius: 5px; */
+  /* width: 50%; */
+  margin: 0 auto;
+  display: block;
+}
+
 @media only screen and (min-width: 1000px) {
   .row {
     display: flex;
@@ -22,8 +31,16 @@
     justify-content: space-between;
   }
 
+  .row .column:nth-child(2) {
+    justify-content: center;
+    text-align: center;
+  }
+
   .column {
-    /* width: 40%; */
+    width: 40%;
     max-width: 750px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 }
