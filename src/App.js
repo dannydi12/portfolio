@@ -1,22 +1,15 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
+// import { useMediaQuery } from 'react-responsive';
 import './App.css';
-import Nav from './Nav/Nav';
-import Intro from './Intro/Intro';
+import About from './About/About';
+import Landing from './Landing/Landing';
 
 function App() {
-  const isMobile = useMediaQuery({ query: '(max-width: 1000px)' })
+  // const isMobile = useMediaQuery({ query: '(max-width: 1000px)' })
   return (
     <main>
-      <header>
-        <div className='half'>
-          <Intro />
-        </div>
-        {!isMobile && <div className='different half'>
-          <Nav />
-        </div>}
-      </header>
-      
+      <Landing />
+      <About />
     </main>
   );
 }

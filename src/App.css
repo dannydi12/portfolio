@@ -15,22 +15,6 @@ main > header {
   flex-direction: column;
 }
 
-.different {
-  background-color: #f5b0cb;
-}
-
-.half {
-  height: 100vh;
-  width: 100vw;
-  /* flex: 1 1; */
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-}
-
 @media only screen and (min-width: 1000px) {
   main > header {
     flex-direction: row;
