@@ -27,3 +27,14 @@ h1 {
 .scaletext-wrapper {
   overflow: hidden !important;
 }
+
+.underline {
+  border-bottom: #f5b0cb 0.2em solid;
+  width: fit-content;
+  padding-right: 0.5em;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
