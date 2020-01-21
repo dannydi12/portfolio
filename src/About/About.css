@@ -31,16 +31,3 @@
   background-color: #39375b;
   border-radius: 7px;
 }
-
-@media only screen and (min-width: 1000px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .column {
-    width: 40%;
-    max-width: 750px;
-  }
-}
