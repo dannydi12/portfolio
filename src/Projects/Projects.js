@@ -1,5 +1,6 @@
 import React from 'react';
 import ScaleText from 'react-scale-text';
+import ProjectList from '../ProjectList/ProjectList';
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
           </header>
         </div>
         <div className='column'>
-
+          <ProjectList />
         </div>
       </div>
     </section>
