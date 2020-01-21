@@ -20,9 +20,9 @@ code {
     monospace;
 }
 
-h1 {
+/* h1 {
   font-family: 'Anonymous Pro', monospace;
-}
+} */
 
 .scaletext-wrapper {
   overflow: hidden !important;
