@@ -1,7 +1,21 @@
 .about-section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #745c97;
 }
+
+.column > svg {
+  background-color: #fff;
+  width: fit-content;
+  /* border-radius: 5px; */
+  /* width: 50%; */
+  /* margin: 0 auto; */
+  display: block;
+}
+
+/* .column:nth-child(2) {
+  justify-content: center;
+  text-align: center;
+} */
 
 .grouped-list {
   list-style: none;
@@ -22,7 +36,7 @@
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .column {
