@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './ProjectCard.css';
 
 function ProjectCard(props) {
   return (
     <div>
-      <img src={props.image} alt={props.title + ' landing page'} />
+      <img className='project-image' src={props.image} alt={props.title + ' landing page'} />
       <h4>{props.title}</h4>
       <p>{props.description}</p>
       <ul>
