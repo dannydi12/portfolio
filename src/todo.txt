@@ -1,6 +1,6 @@
 - finish projects section
-  - fix images
+  - fix images +
   - conditional rendering based on screen width
-  -componetize unordered lists for card-like and '-' styles
+  -componetize unordered lists for card-like and '-' styles +
 - create contact section OR combine it with about and put the section after projects
 - possibly remove navbar

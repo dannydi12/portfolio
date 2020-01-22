@@ -1,0 +1,14 @@
+.word-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+.word-list > li {
+  padding: 15px;
+  margin: 15px;
+  background-color: #39375b;
+  border-radius: 7px;
+}

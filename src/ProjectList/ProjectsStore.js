@@ -9,7 +9,7 @@ const STORE = [
   },
   {
     title: 'Mocking Text Generator',
-    description: 'A satirical web app to generate randomly capitalized text based on user input.',
+    description: 'A satirical web app to generate randomly capitalized text based on user input. Not to be used for psychological warfare.',
     image: '/images/meme-generator.png',
     languages: ['HTML', 'CSS', 'Javascript', 'jQuery'],
     repo: 'https://github.com/dannydi12/mocking-text-generator',
