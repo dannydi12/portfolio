@@ -3,7 +3,18 @@
   min-height: 100vh;
 }
 
-.project-preview {
-  background-color: #745c97;
-  padding: 15px;
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-list .project-card:nth-child(even) {
+  margin-left: 35%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .project-list {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
