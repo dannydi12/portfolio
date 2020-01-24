@@ -12,42 +12,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-/* h1 {
-  font-family: 'Anonymous Pro', monospace;
-} */
-
-.scaletext-wrapper {
-  overflow: hidden !important;
-}
-
-.underline {
-  border-bottom: #f5b0cb 0.2em solid;
-  width: fit-content;
-  padding-right: 0.5em;
-}
-
-.title {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-
-@media only screen and (min-width: 1000px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .column {
-    width: 40%;
-    max-width: 750px;
-  }
 }
